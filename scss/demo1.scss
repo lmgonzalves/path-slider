@@ -1,0 +1,105 @@
+// General styles
+
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  height: 100%;
+  background-color: #5FC782;
+}
+
+.path-slider {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-40%);
+}
+
+path {
+  stroke-width: 1px;
+  stroke: none;
+  fill: none;
+}
+
+.icon__path {
+  fill: #FFFFFF;
+}
+
+.path-slider__path {
+  stroke: rgba(255, 255, 255, 0.5);
+}
+
+// Circle width and height
+$circle-width: 74px;
+$circle-height: 74px;
+
+// Styles for slider items, positioning them absolutely, in the top left corner of the container
+// Also centering them (see negative values for `left` and `top`)
+// They will be positioned along the SVG path later with Javascript
+.path-slider__item {
+  position: absolute;        // Get items out of the flow, and let the library set the correct position
+  left: - $circle-width / 2; // Half of the width, for centering purpose
+  top: - $circle-height / 2; // Half of the height, for centering purpose
+  color: #FFFFFF;
+  cursor: pointer;
+  transform-origin: 50% 50%;
+  text-decoration: none;
+  outline: none;
+
+  &:hover, &:focus {
+    .item__circle {
+      background-color: darken(#4DA169, 5%);
+    }
+  }
+}
+
+// Styles for the item circle (icon container)
+.item__circle {
+  display: inline-block;
+  width: $circle-width;    // Desired width
+  height: $circle-height;  // Desired height
+  background-color: #55B375;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.5);
+  border-radius: 100%;
+  text-align: center;
+  transition: 0.5s;
+}
+
+// Styles for the item title
+.item__title {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-variant: small-caps;
+  white-space: nowrap;
+  opacity: 0.8;
+  transition: 0.5s;
+}
+
+// Styles for the item icon
+.item__icon {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+// Styles for the selected item
+.path-slider__current-item {
+
+  .item__circle {
+    background-color: #4DA169; // Change circle background-color for selected item
+    transform: scale(1.5);     // Scale up circle for selected item
+  }
+
+  .item__title {
+    font-size: 25px;
+    opacity: 1;
+    transform: translate(-50%, -20px);
+  }
+}

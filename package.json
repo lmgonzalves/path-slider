@@ -1,0 +1,32 @@
+{
+  "name": "path-slider",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/path-slider.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lmgonzalves/path-slider.git"
+  },
+  "keywords": [
+    "svg",
+    "slider",
+    "animation"
+  ],
+  "author": "lmgonzalves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lmgonzalves/path-slider/issues"
+  },
+  "homepage": "http://lmgonzalves.github.io/path-slider/",
+  "engine": {
+    "node": ">=6.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.1",
+    "gulp-uglify": "^1.5.3"
+  }
+}
