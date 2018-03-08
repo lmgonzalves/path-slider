@@ -4,11 +4,11 @@ Sliding elements along SVG paths!
 
 ### Basic Usage Links
 
-[**DEMO**](http://lmgonzalves.github.io/creative-upload/)
+[**DEMO**](http://lmgonzalves.github.io/path-slider/)
 
 **TUTORIAL** (coming soon!)
 
-**CODEPEN** (coming soon!)
+[**CODEPEN**](https://codepen.io/lmgonzalves/full/dmbmpQ/)
 
 ### Advanced Usage Links
 
