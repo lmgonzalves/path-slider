@@ -6,7 +6,7 @@ Sliding elements along SVG paths!
 
 [**DEMO**](http://lmgonzalves.github.io/path-slider/)
 
-**TUTORIAL** (coming soon!)
+[**TUTORIAL**](https://scotch.io/tutorials/animating-elements-along-svg-paths-introducing-pathslider)
 
 [**CODEPEN**](https://codepen.io/lmgonzalves/full/dmbmpQ/)
 
