@@ -16,7 +16,7 @@ Sliding elements along SVG paths!
 
 [**Demo Elastic**](https://lmgonzalves.github.io/path-slider/index2.html) | [**Demo Images**](https://lmgonzalves.github.io/path-slider/index3.html)
 
-[**Codepen Elastic**](https://codepen.io/lmgonzalves/pen/bvpLyW/) | [**Codepen Images**](https://codepen.io/lmgonzalves/pen/EEKEaM)
+[**Codepen Elastic**](https://codepen.io/lmgonzalves/pen/bvpLyW/) | [**Codepen Images**](https://codepen.io/lmgonzalves/details/EEKEaM/)
 
 ## Documentation
 
