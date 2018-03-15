@@ -4,19 +4,19 @@ Sliding elements along SVG paths!
 
 ### Basic Usage Links
 
-[**DEMO**](http://lmgonzalves.github.io/path-slider/)
-
 [**TUTORIAL**](https://scotch.io/tutorials/animating-elements-along-svg-paths-introducing-pathslider)
+
+[**DEMO**](http://lmgonzalves.github.io/path-slider/)
 
 [**CODEPEN**](https://codepen.io/lmgonzalves/full/dmbmpQ/)
 
 ### Advanced Usage Links
 
-**DEMO** (coming soon!)
-
 **TUTORIAL** (coming soon!)
 
-**CODEPEN** (coming soon!)
+[**Demo Elastic**](https://lmgonzalves.github.io/path-slider/index2.html) | [**Demo Images**](https://lmgonzalves.github.io/path-slider/index3.html)
+
+[**Codepen Elastic**](https://codepen.io/lmgonzalves/pen/bvpLyW/) | [Codepen Images](https://codepen.io/lmgonzalves/pen/EEKEaM)
 
 ## Documentation
 
