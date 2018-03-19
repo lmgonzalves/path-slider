@@ -12,7 +12,7 @@ Sliding elements along SVG paths!
 
 ### Advanced Usage Links
 
-**TUTORIAL** (coming soon!)
+[**TUTORIAL**](https://scotch.io/tutorials/animating-more-elements-along-svg-paths-with-javascript-part-2909)
 
 [**Demo Elastic**](https://lmgonzalves.github.io/path-slider/index2.html) | [**Demo Images**](https://lmgonzalves.github.io/path-slider/index3.html)
 
